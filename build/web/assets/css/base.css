@@ -1,0 +1,47 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 4, 2023, 5:35:33 PM
+    Author     : ASUS
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+:root {
+    --primary-color: #006ce4;
+    --white-color: #fff;
+}
+
+* {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: inherit;
+}
+
+html {
+        box-sizing: border-box;
+}
+
+/*html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}*/
+
+.btn {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    min-width: 150px;   
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(0, 108, 228, 0.8);
+}
+    
+    

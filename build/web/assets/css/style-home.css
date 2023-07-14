@@ -1,0 +1,167 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 14, 2023, 11:39:07 AM
+    Author     : ASUS
+*/
+
+.navbar {
+    height: 120px;
+    background-color: var(--primary-color);
+    font-size: 50px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    color: var(--white-color);
+}
+
+.main {
+    width: 100%;
+    height: 180vh;
+    position: relative;
+    color: black;
+    background-image: url("https://www.holidify.com/images/cmsuploads/compressed/256518845_20211005153546.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.main .logOut {
+    position: absolute;
+    color: var(--white-color);
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+}
+
+.main .logOut a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.main .logOut i {
+    margin-right: 10px;
+}
+
+.main .info {
+    background-color: white;
+    min-width: 700px;
+    min-height: 180px;
+    border-radius: 3px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.main .info .inside {
+    margin: 20px;
+}
+
+.main .info .inside .welcom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .info .inside .welcom_p{
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+td {
+    text-align: center;
+}
+
+.main .find_room {
+    position: absolute;
+    right: 45px;
+    top:80px;
+    background-color: transparent;
+    color: var(--white-color);
+    font-size: 20px;
+}
+
+.main .find_room .btn {
+    border-radius: 20px;
+}
+
+.main .show {
+    position: absolute;
+    top: 220px;
+    width: 100%;
+    color: var(--white-color);
+}
+
+.main .show ul{
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 15px 
+}
+
+.show_single::before, .show_double::before, .show_vip::before {
+    content: "";
+    border-width: 12px 18px;
+    border-style: solid;
+    border-color: transparent transparent transparent var(--white-color);
+    position: absolute;
+    left: 10px;
+}
+
+.main .show li {
+    background-color: white;
+    width: 350px;
+    height: 280px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.main .show p {
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.show .list .item_img {
+    width: 100%;
+    height: 75%;
+}
+
+.show .list .item_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.show .list .item__btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.footer {
+    width: 100%;
+    height: 140px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer h3 {
+    margin-top: 10px
+}
+
+.footer i {
+    color: var(--white-color);
+    margin-right: 5px;
+}
+
